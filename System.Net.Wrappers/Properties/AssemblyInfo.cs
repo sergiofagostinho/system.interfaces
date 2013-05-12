@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SAgostinho.System.Net")]
+[assembly: AssemblyTitle("System.Net.Wrappers")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SAgostinho.System.Net")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyProduct("System.Net.Wrappers")]
+[assembly: AssemblyCopyright("Copyright © Sérgio Agostinho 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("33026396-e126-421a-b5c6-f273eff10b2f")]
+[assembly: Guid("85ba3274-ba2e-4205-a815-b079ab5abe31")]
 
 // Version information for an assembly consists of the following four values:
 //

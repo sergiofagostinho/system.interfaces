@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Interface Name="System.Net.Interfaces.IFtpWebRequest">
+    <Position X="2.25" Y="7.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAQAAAAGAAAAAAAAAAUCAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>IFtpWebRequest.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Net.Interfaces.IFtpWebResponse">
+    <Position X="2.75" Y="21.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgEgAAAAAAAAAAAAAAAAACAAAAAAAAJAAAAAAAAAA=</HashCode>
+      <FileName>IFtpWebResponse.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Net.Interfaces.IHttpWebRequest">
+    <Position X="5.75" Y="7.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AoEAIAACGACUAgkYAAAAAAAEIAAACAAHAAQiQCCEAAA=</HashCode>
+      <FileName>IHttpWebRequest.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Net.Interfaces.IHttpWebResponse">
+    <Position X="5.5" Y="21.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgAAAAACAAAAAAAgAAACAAAAAAAAIAAKAgAAACA=</HashCode>
+      <FileName>IHttpWebResponse.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Net.Interfaces.IWebRequest">
+    <Position X="2.25" Y="2.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAACAAAACAQAAAiAAAAKAQEABIAAAAQgAAAAAE=</HashCode>
+      <FileName>IWebRequest.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Net.Interfaces.IWebRequestFactory">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAIAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>IWebRequestFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Net.Interfaces.IWebResponse">
+    <Position X="2.75" Y="17.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAACAAAAAAAAAMCAAAABAAAAAQAACAAAA=</HashCode>
+      <FileName>IWebResponse.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Net.Interfaces.IFileWebRequest">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFileWebRequest.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Net.Interfaces.IFileWebResponse">
+    <Position X="1" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFileWebResponse.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

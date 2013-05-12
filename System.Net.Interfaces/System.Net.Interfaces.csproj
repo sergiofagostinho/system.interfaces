@@ -7,8 +7,8 @@
     <ProjectGuid>{3B14F247-2DD3-4DCF-B7C0-49467A318FD2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SAgostinho.System.Net</RootNamespace>
-    <AssemblyName>SAgostinho.System.Net</AssemblyName>
+    <RootNamespace>System.Net.Interfaces</RootNamespace>
+    <AssemblyName>System.Net.Interfaces</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,21 +39,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IFileWebRequest.cs" />
+    <Compile Include="IFileWebResponse.cs" />
     <Compile Include="IFtpWebRequest.cs" />
     <Compile Include="IFtpWebResponse.cs" />
     <Compile Include="IHttpWebRequest.cs" />
     <Compile Include="IHttpWebResponse.cs" />
     <Compile Include="IWebRequest.cs" />
+    <Compile Include="IWebRequestFactory.cs" />
     <Compile Include="IWebResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Wrappers\FtpWebRequestWrapper.cs" />
-    <Compile Include="Wrappers\FtpWebResponseWrapper.cs" />
-    <Compile Include="Wrappers\HttpWebResponseWrapper.cs" />
-    <Compile Include="Wrappers\HttpWebRequestWrapper.cs" />
-    <Compile Include="Wrappers\WebRequestWrapper.cs" />
-    <Compile Include="Wrappers\WebResponseWrapper.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
